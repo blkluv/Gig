@@ -7,10 +7,10 @@ import Footer from "../components/Footer";
 import Head from "next/head";
 
 export default function Home() {
-  const patterFill = useColorModeValue("#00A4BD", "#BDE1E5");
+  const patterFill = useColorModeValue("#76E5FC", "#C6AD93");
   return (
     <PillPity
-      pattern="bubbles"
+      pattern="four-point-stars"
       patternFill={patterFill}
       bgColor="choc.secondary"
       patternOpacity={0.1}
@@ -18,11 +18,10 @@ export default function Home() {
       minH="100vh"
     >
       <Head>
-        <title>GigiBlock - A web3 freelance marketplace</title>
+        <title>ARVRtise Gig - A free gig marketplace</title>
         <meta
-          name="GigiBlock - A web3 freelance marketplace"
-          content="A web3 freelance marketplace. Accelerating the use
-              of decentralized storage."
+          name="ARVRtise Gig - A purpose based free gig marketplace"
+          content="A free gig marketplace that allows you to barter."
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
