@@ -43,7 +43,7 @@ export default function JobPost() {
   async function loadWaste() {
     /* create a generic provider and query for Wastes */
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://matic-mumbai.chainstacklabs.com"
+      "https://polygon-mainnet.infura.io/v3/db9967a36a584cd0ac3a04e62a41e263"
     );
     const contract = new ethers.Contract(
       wastemarketplaceAddress,
@@ -135,7 +135,7 @@ export default function JobPost() {
         fontWeight="bold"
         color="#00A4BD"
       >
-        Jobs Listed
+        Gigs Listed
       </Text>
       <Text
         mb={1}
@@ -145,8 +145,7 @@ export default function JobPost() {
         fontFamily="heading"
         color={HeaderTextColor}
       >
-        `Connecting the world, bring talent, Working together, Changing the
-        world - Web3 decentralized storage`
+        `Hire Purpose`
       </Text>
       <SimpleGrid
         columns={[1, null, 3]}
@@ -159,7 +158,7 @@ export default function JobPost() {
               maxW="700"
               height="300"
               maxH="100%"
-              bg="#BDE1E5"
+              bg="#76E5FC"
               _dark={{ bg: "gray.800" }}
               borderWidth="xl"
               rounded="lg"
@@ -224,8 +223,8 @@ export default function JobPost() {
                   <Button
                     cursor="pointer"
                     textAlign="center"
-                    bgColor="#CBD6E1"
-                    borderColor="#CBD6E1"
+                    bgColor="#1A202C"
+                    borderColor="#4A5568"
                     borderRadius="full"
                     width={100}
                     minH={10}

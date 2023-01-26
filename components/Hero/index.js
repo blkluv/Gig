@@ -39,16 +39,14 @@ export default function SplitScreen() {
               fontSize={{ base: "md", lg: "xl" }}
               color={SubHeaderTextColor}
             >
-              <left>A blockchain free gig marketplace - a movement to create a more 
+              A blockchain free gig marketplace - a movement to create a more 
               equitable and inclusive hiring process powered by purpose. It is an 
               effort to ensure that employers are considering the potential of all 
               candidates, regardless of their background or identity. Show ARVRtise
               your talent as "Proof of work" and we ARVRtise your skills. We bridge
-              purposed based freelancers with purposed based companies. </left>
-              
-              With Unstoppable Domain, empowering
-              creators and users to take control of their own identities in a
-              fully decentralized manner.
+              purposed based freelancers with purposed based companies. With Unstoppable 
+              Domain, empowering creators and users to take control of their own 
+              identities in a fully decentralized manner.
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button
