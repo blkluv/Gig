@@ -42,7 +42,7 @@ export default function TalentUploads() {
   async function loadWaste() {
     /* create a generic provider and query for Wastes */
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://matic-mumbai.chainstacklabs.com"
+      "https://polygon-mumbai.infura.io/v3/db9967a36a584cd0ac3a04e62a41e263"
     );
     const contract = new ethers.Contract(
       wastemarketplaceAddress2,
