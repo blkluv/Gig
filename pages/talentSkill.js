@@ -8,7 +8,7 @@ import TalentSkillshare from "../components/TalentMinter/TalentSkillshare";
 import Footer from "../components/Footer/index";
 
 export default function TalentSkill() {
-  const patterFill = useColorModeValue("#00A4BD", "#BDE1E5");
+  const patterFill = useColorModeValue("#76E5FC", "#76E5FC");
   return (
     <PillPity
       pattern="four-point-stars"
@@ -21,7 +21,7 @@ export default function TalentSkill() {
       <Head>
         <title> Skills - ARVRtise Gig</title>
         <meta
-          name="GigiBlock - A web3 freelance marketplace"
+          name="ARVRtise Gig - A blockchain freelance marketplace"
           content="A web3 freelance marketplace. Accelerating the use
               of decentralized storage."
         />

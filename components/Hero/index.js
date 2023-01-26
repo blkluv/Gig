@@ -12,7 +12,7 @@ import {
 export default function SplitScreen() {
   const SubHeaderTextColor = useColorModeValue("blue.800", "white");
   const HeaderTextColor = useColorModeValue("#00A4BD", "#00A4BD");
-  const HeaderTextColo2 = useColorModeValue("#116EBE", "#116EBE");
+  const HeaderTextColo2 = useColorModeValue("#0E76FD", "#0E76FD");
 
   return (
     <>
@@ -27,11 +27,11 @@ export default function SplitScreen() {
                 color={HeaderTextColo2}
                 mr={4}
               >
-                ARVRtise Gig,
+                ARVRtise Gig, The world united hiring for purpose.
               </Text>
 
               <Text fontFamily="monospace" color={HeaderTextColor} as={"span"}>
-               The world united hiring for purpose.
+               
               </Text>
             </Heading>
             <Text
@@ -53,7 +53,7 @@ export default function SplitScreen() {
               <Button
                 textColor="white"
                 borderRadius="full"
-                bgColor="#116EBE"
+                bgColor="#0E76FD"
                 shadow="lg"
                 fontSize="m"
                 textTransform="uppercase"

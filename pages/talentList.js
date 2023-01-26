@@ -11,7 +11,7 @@ export default function TalentListing() {
   const patterFill = useColorModeValue("#00A4BD", "#BDE1E5");
   return (
     <PillPity
-      pattern="bubbles"
+      pattern="four-point-stars"
       patternFill={patterFill}
       bgColor="choc.secondary"
       patternOpacity={0.1}
@@ -19,9 +19,9 @@ export default function TalentListing() {
       minH="100vh"
     >
       <Head>
-        <title>Find Talent - GigiBlock</title>
+        <title>Find Talent - ARVRtise Gig</title>
         <meta
-          name="GigiBlock - A web3 freelance marketplace"
+          name="ARVRtise Gig - A blockchain freelance marketplace"
           content="A web3 freelance marketplace. Accelerating the use
               of decentralized storage."
         />
