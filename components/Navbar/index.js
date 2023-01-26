@@ -204,7 +204,7 @@ export default function Navbar() {
                   bgColor={ButtonBgColor}
                   href="gigiList"
                 >
-                  Find Work
+                  Find Purpose
                 </Link>
               </Button>
               <Button

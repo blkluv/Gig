@@ -11,7 +11,7 @@ import {
 
 export default function SplitScreen() {
   const SubHeaderTextColor = useColorModeValue("blue.800", "white");
-  const HeaderTextColor = useColorModeValue("#00A4BD", "#00A4BD");
+  const HeaderTextColor = useColorModeValue("#76E5FC", "#76E5FC");
   const HeaderTextColo2 = useColorModeValue("#0E76FD", "#0E76FD");
 
   return (
@@ -39,15 +39,16 @@ export default function SplitScreen() {
               fontSize={{ base: "md", lg: "xl" }}
               color={SubHeaderTextColor}
             >
-              <center>A blockchain freelance marketplace - a movement to create a more 
-              equitable and inclusive hiring process. It is an effort to ensure 
-              that employers are considering the potential of all candidates, 
-              regardless of their background or identity. This movement encourages 
-              employers to look beyond traditional qualifications and consider the 
-              unique skills, experiences, and perspectives that each individual 
-              brings to the table. With Unstoppable Domain, empowering
+              <left>A blockchain free gig marketplace - a movement to create a more 
+              equitable and inclusive hiring process powered by purpose. It is an 
+              effort to ensure that employers are considering the potential of all 
+              candidates, regardless of their background or identity. Show ARVRtise
+              your talent as "Proof of work" and we ARVRtise your skills. We bridge
+              purposed based freelancers with purposed based companies. </left>
+              
+              With Unstoppable Domain, empowering
               creators and users to take control of their own identities in a
-              fully decentralized manner.</center>
+              fully decentralized manner.
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button
@@ -62,7 +63,7 @@ export default function SplitScreen() {
                 letterSpacing={2}
                 textDecoration="none"
               >
-                <Link href={"talentList"}>👁️ Talent</Link>
+                <Link href={"talentList"}>🔎 Talent</Link>
               </Button>
               <Button
                 textColor="white"
@@ -76,7 +77,7 @@ export default function SplitScreen() {
                 letterSpacing={2}
                 textDecoration="none"
               >
-                <Link href={"gigiList"}>👁️ Work</Link>
+                <Link href={"gigiList"}>🔎 Purpose</Link>
               </Button>
             </Stack>
           </Stack>

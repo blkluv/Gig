@@ -144,8 +144,7 @@ export default function TalentUploads() {
         fontFamily="heading"
         color={HeaderTextColor}
       >
-        `Connecting the world, bring talent, Working together, Changing the
-        world - Web3 decentralized storage`
+        `Uniting the world, bring talent, Working together for a greater purpose.`
       </Text>
       <SimpleGrid
         columns={[1, null, 3]}
