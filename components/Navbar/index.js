@@ -148,7 +148,7 @@ export default function Navbar() {
                     letterSpacing={1}
                     href={"talentSkill"}
                   >
-                    <Text textColor={TextColor}>ShareSkills</Text>
+                    <Text textColor={TextColor}>ARVRtise Skills</Text>
                   </Link>
                 </Button>
               </Stack>
@@ -237,7 +237,7 @@ export default function Navbar() {
                   bgColor={ButtonBgColor}
                   href={"talentSkill"}
                 >
-                  <Text textColor={TextColor}>SkillShare</Text>
+                  <Text textColor={TextColor}>ARVRtise Skills</Text>
                 </Link>
               </Button>
               <Flex alignItems="center">

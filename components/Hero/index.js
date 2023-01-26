@@ -31,7 +31,7 @@ export default function SplitScreen() {
               </Text>
 
               <Text fontFamily="monospace" color={HeaderTextColor} as={"span"}>
-                The world united hiring for purpose.
+               The world united hiring for purpose.
               </Text>
             </Heading>
             <Text
@@ -39,11 +39,15 @@ export default function SplitScreen() {
               fontSize={{ base: "md", lg: "xl" }}
               color={SubHeaderTextColor}
             >
-              A blockchain freelance marketplace service - That connects creators to
-              open projects, showcasing opportunities for hire. Accelerating the
-              use of decentralized storage. With Unstoppable Domain, empowering
+              <center>A blockchain freelance marketplace - a movement to create a more 
+              equitable and inclusive hiring process. It is an effort to ensure 
+              that employers are considering the potential of all candidates, 
+              regardless of their background or identity. This movement encourages 
+              employers to look beyond traditional qualifications and consider the 
+              unique skills, experiences, and perspectives that each individual 
+              brings to the table. With Unstoppable Domain, empowering
               creators and users to take control of their own identities in a
-              fully decentralized manner.
+              fully decentralized manner.</center>
             </Text>
             <Stack direction={{ base: "column", md: "row" }} spacing={4}>
               <Button
@@ -58,12 +62,12 @@ export default function SplitScreen() {
                 letterSpacing={2}
                 textDecoration="none"
               >
-                <Link href={"talentList"}>Find Talent</Link>
+                <Link href={"talentList"}>👁️ Talent</Link>
               </Button>
               <Button
                 textColor="white"
                 borderRadius="full"
-                bgColor="#116EBE"
+                bgColor="#0E76FD"
                 shadow="lg"
                 fontSize="m"
                 textTransform="uppercase"
@@ -72,7 +76,7 @@ export default function SplitScreen() {
                 letterSpacing={2}
                 textDecoration="none"
               >
-                <Link href={"gigiList"}>Find Work</Link>
+                <Link href={"gigiList"}>👁️ Work</Link>
               </Button>
             </Stack>
           </Stack>

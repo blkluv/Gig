@@ -58,7 +58,7 @@ const XmtpHome = () => {
 
   return (
     <PillPity
-      pattern="bubbles"
+      pattern="four-point-stars"
       patternFill={patterFill}
       bgColor="choc.secondary"
       patternOpacity={0.1}

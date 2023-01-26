@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <Flex mx="40%" display="flex" alignItems="center">
       <Text fontWeight="semibold" fontSize="md">
-        Powered by
+        Powered by 💙
       </Text>
       <HStack>
         <Link href="https://filecoin.io/" target="_blank">

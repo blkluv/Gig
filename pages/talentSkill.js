@@ -11,7 +11,7 @@ export default function TalentSkill() {
   const patterFill = useColorModeValue("#00A4BD", "#BDE1E5");
   return (
     <PillPity
-      pattern="bubbles"
+      pattern="four-point-stars"
       patternFill={patterFill}
       bgColor="choc.secondary"
       patternOpacity={0.1}
@@ -19,7 +19,7 @@ export default function TalentSkill() {
       minH="100vh"
     >
       <Head>
-        <title> SkillShare - GigiBlock</title>
+        <title> Skills - ARVRtise Gig</title>
         <meta
           name="GigiBlock - A web3 freelance marketplace"
           content="A web3 freelance marketplace. Accelerating the use
