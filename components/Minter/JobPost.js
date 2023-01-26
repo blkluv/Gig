@@ -43,7 +43,7 @@ export default function JobPost() {
   async function loadWaste() {
     /* create a generic provider and query for Wastes */
     const provider = new ethers.providers.JsonRpcProvider(
-      "https://polygon-mainnet.infura.io/v3/db9967a36a584cd0ac3a04e62a41e263"
+      "https://matic-mumbai.chainstacklabs.com"
     );
     const contract = new ethers.Contract(
       wastemarketplaceAddress,
