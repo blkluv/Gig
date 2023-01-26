@@ -27,7 +27,7 @@ export default function SplitScreen() {
                 color={HeaderTextColo2}
                 mr={4}
               >
-                ARVRtise Gig, The world united hiring for purpose.
+                Hire Purpose
               </Text>
 
               <Text fontFamily="monospace" color={HeaderTextColor} as={"span"}>
@@ -39,11 +39,11 @@ export default function SplitScreen() {
               fontSize={{ base: "md", lg: "xl" }}
               color={SubHeaderTextColor}
             >
-              A blockchain free gig marketplace - a movement to create a more 
-              equitable and inclusive hiring process powered by purpose. It is an 
+              ARVRtise your purpose on our freelance marketplace - a movement to 
+              create a more equitable and inclusive hiring process. It is an 
               effort to ensure that employers are considering the potential of all 
               candidates, regardless of their background or identity. Show ARVRtise
-              your talent as "Proof of work" and we ARVRtise your skills. We bridge
+              your talent as 'Proof of work' and we ARVRtise your skills. We bridge
               purposed based freelancers with purposed based companies. With Unstoppable 
               Domain, empowering creators and users to take control of their own 
               identities in a fully decentralized manner.

@@ -104,7 +104,7 @@ export default function ConnectUnstoppable() {
       shadow="xl"
     >
       <Image alt="ud-logo" src="/ud-logo.svg" px={1} />
-      <Text fontSize={["xs", "md"]}>Login UNS Domain</Text>
+      <Text fontSize={["xs", "md"]}>Login UD</Text>
     </Button>
   );
 }

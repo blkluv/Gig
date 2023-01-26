@@ -1,4 +1,5 @@
-import React, { useContext } from "react";
+import React from 'react';
+import Image from 'next/image';
 import { WalletContext } from "../../contexts/WalletContext";
 import { shortAddress } from "../../utils/utils";
 import { Box, Button } from "@chakra-ui/react";
