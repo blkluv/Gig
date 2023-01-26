@@ -27,11 +27,11 @@ export default function SplitScreen() {
                 color={HeaderTextColo2}
                 mr={4}
               >
-                GigiBlock,
+                ARVRtise Gig,
               </Text>
 
               <Text fontFamily="monospace" color={HeaderTextColor} as={"span"}>
-                connecting the world, bring talent, Working together..
+                The world united hiring for purpose.
               </Text>
             </Heading>
             <Text
@@ -39,7 +39,7 @@ export default function SplitScreen() {
               fontSize={{ base: "md", lg: "xl" }}
               color={SubHeaderTextColor}
             >
-              A web3 freelance marketplace service - That connects talents to
+              A blockchain freelance marketplace service - That connects creators to
               open projects, showcasing opportunities for hire. Accelerating the
               use of decentralized storage. With Unstoppable Domain, empowering
               creators and users to take control of their own identities in a
